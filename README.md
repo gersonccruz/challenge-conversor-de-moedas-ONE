@@ -1,4 +1,4 @@
-## Challenge - Conversor de moedas - ONE(G8)
+## 💻Challenge - Conversor de moedas - ONE(G8)
 Aplicação em java que realiza conversão entre moedas usando a API ExchangeRate.
 Ideal para praticar a integração com APIs externas, requisição HTTP e manipulação 
 de arquivos JSON com a biblioteca GSON.
@@ -6,7 +6,7 @@ de arquivos JSON com a biblioteca GSON.
 ## 🛠Tecnologias Utilizadas
 - ☕Java 17+
 - 🌐Http Client ('java.net.http')
-- 🔧Gson (Google
+- 🔧Gson (Google)
 - 🔎EnchangeRate API
 ---
 ## 📸 Demonstração Terminal
@@ -33,3 +33,8 @@ cd conversor-moedas
 ````
 2. Compile e execute com sua IDE(intelliJ, VS CODE, etc.)
 ---
+## Copilando código no terminal
+````
+javac -d out -cp "lib/*" src/com/gersonccruz/conversor/**/*.java
+java -cp "out;lib/*" com.gersonccruz.conversor.principal.Main
+````
