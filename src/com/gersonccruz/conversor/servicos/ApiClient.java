@@ -26,7 +26,7 @@ public class ApiClient {
 
         HttpResponse<String> response = client.send(request,HttpResponse.BodyHandlers.ofString());
 
-        //Confere se a resposta da API é "sucess"!
+        //Confere se a resposta da API é "success"!
         if(response.statusCode() != 200){
             throw new RuntimeException("Falha na comuninação com o servidor. Erro: " +
                     response.statusCode());
