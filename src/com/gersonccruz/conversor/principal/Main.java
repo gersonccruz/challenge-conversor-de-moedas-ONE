@@ -34,8 +34,8 @@ public class Main {
                     break;
                 }
 
-                String moedaOrigem = "";
-                String moedaDestino = "";
+                String moedaOrigem;
+                String moedaDestino;
 
                 switch (opcao) {
                     case 1 -> { moedaOrigem = "USD"; moedaDestino = "BRL"; }
