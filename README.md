@@ -2,6 +2,11 @@
 Aplicação em java que realiza conversão entre moedas usando a API ExchangeRate.
 Ideal para praticar a integração com APIs externas, requisição HTTP e manipulação 
 de arquivos JSON com a biblioteca GSON.
+
+<div align="center">
+    <img width="50%" align="center" src="assets/Badge-Conversor.png" alt="Como era o projeto inicial">
+</div>
+
 ---
 ## 🛠Tecnologias Utilizadas
 - ☕Java 17+
