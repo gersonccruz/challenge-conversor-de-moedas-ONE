@@ -4,11 +4,27 @@ Ideal para praticar a integração com APIs externas, requisição HTTP e manipu
 de arquivos JSON com a biblioteca GSON.
 ---
 ## 🛠Tecnologias Utilizadas
-- Java 17+
-- Http Client ('java.net.http')
-- Gson (Google
-- EnchangeRate API
+- ☕Java 17+
+- 🌐Http Client ('java.net.http')
+- 🔧Gson (Google
+- 🔎EnchangeRate API
 ---
+## 📸 Demonstração Terminal
+````
+*************************************************
+Bem-vindo(a) ao Conversor de Moedas!
+1) Dólar (USD) =>> Real Brasileiro (BRL)
+2) Real Brasileiro (BRL) =>> Dólar (USD)
+3) Euro (EUR) =>> Real Brasileiro (BRL)
+4) Real Brasileiro (BRL) =>> Euro (EUR)
+5) Franco Suiço (CHF) =>> Dólar (USD)
+6) Dólar (USD) =>> Franco Suiço (JPY)
+7) Sair
+*************************************************
+Escolha uma opção válida:
+````
+---
+
 ## Como executar o projeto
 1. **Clone o repositório**
 ```` bash
